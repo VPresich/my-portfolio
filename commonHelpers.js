@@ -1,4 +1,4 @@
-import{D as k,B as M,i as n,m as I,a as V,c as z,s as W}from"./assets/handle-menu-buttons-9e826f93.js";import{i as N}from"./assets/vendor-32231325.js";const Y="Escape",O="modal-backdrop",J=".exercise-close-btn",Z=".exercises-gallery",X="gallery-start",w="is-open",Q=".exercise-favorite-btn",ee=".exercise-raiting-btn",te="Remove from",ae="Add to favorites",ie=".modal-rating";function ne(e={}){return`
+import{D as k,B as M,i as n,m as I,a as V,c as z,s as W}from"./assets/handle-menu-buttons-385926bd.js";import{i as N}from"./assets/vendor-32231325.js";const Y="Escape",O="modal-backdrop",J=".exercise-close-btn",Z=".exercises-gallery",X="gallery-start",w="is-open",Q=".exercise-favorite-btn",ee=".exercise-raiting-btn",te="Remove from",ae="Add to favorites",ie=".modal-rating";function ne(e={}){return`
         <div class="exercise-window">
           <div class="exercise-container">
             <button class="exercise-close-btn" type="button">

@@ -1,4 +1,4 @@
-import{D as q,B as E,m,a as A,i as l}from"./assets/handle-menu-buttons-9e826f93.js";const C=document.querySelector(".js-quote"),d="quote",u="date",D=new q(E);I();async function I(){try{const{quote:e,author:o}=await j();$({quote:e,author:o})}catch(e){console.error("Error fetching or displaying quote:",e)}}async function j(){const e=localStorage.getItem(u),o=localStorage.getItem(d),a=new Date().toISOString().split("T")[0];if(e===a&&o){const i=JSON.parse(o);if(i.quote&&i.author)return i}const s=await H();return localStorage.setItem(u,a),localStorage.setItem(d,JSON.stringify(s)),s}async function H(){const{quote:e,author:o}=await D.objectGetRequest("quote");return{quote:e,author:o}}function $({quote:e,author:o}){C.innerHTML=`
+import{D as q,B as E,m,a as A,i as l}from"./assets/handle-menu-buttons-385926bd.js";const C=document.querySelector(".js-quote"),d="quote",u="date",D=new q(E);I();async function I(){try{const{quote:e,author:o}=await j();$({quote:e,author:o})}catch(e){console.error("Error fetching or displaying quote:",e)}}async function j(){const e=localStorage.getItem(u),o=localStorage.getItem(d),a=new Date().toISOString().split("T")[0];if(e===a&&o){const i=JSON.parse(o);if(i.quote&&i.author)return i}const s=await H();return localStorage.setItem(u,a),localStorage.setItem(d,JSON.stringify(s)),s}async function H(){const{quote:e,author:o}=await D.objectGetRequest("quote");return{quote:e,author:o}}function $({quote:e,author:o}){C.innerHTML=`
     <p class="quote-text">${e}</p>
     <h3 class="quote-author">${o}</h3>
   `}const g=document.querySelectorAll(".button-home"),v=document.querySelectorAll(".button-portfolio");m(v,g);v.forEach(e=>{e.addEventListener("click",o=>{m([e],g)})});A();function B(e){return e.map(o=>`
@@ -50,7 +50,7 @@ import{D as q,B as E,m,a as A,i as l}from"./assets/handle-menu-buttons-9e826f93.
         </ul>
       </div>
     </li>
-  `).join("")}const y=[{id:1,type:"Project",teamLeader:"Team Leader",img:"../../img/dynamic.jpg",githubLink:"https://vpresich.github.io/dynamics/",name:"Dynamics",participants:9,languages:["HTML5","CSS3","JavaScript"],target:"Study",short:`The app "Dynamics" provides a comprehensive platform for workout enthusiasts,
+  `).join("")}const y=[{id:1,type:"Project",teamLeader:"Team Leader",img:"./img/dynamic.jpg",githubLink:"https://vpresich.github.io/dynamics/",name:"Dynamics",participants:9,languages:["HTML5","CSS3","JavaScript"],target:"Study",short:`The app "Dynamics" provides a comprehensive platform for workout enthusiasts,
 featuring server integration, exercise uploads, modal window previews, favorites addition,
 and feedback submission for exercises and ratings`,desc:`The app "Dynamics" provides a comprehensive platform for workout enthusiasts,
 featuring server integration, exercise uploads, modal window previews, favorites addition,
