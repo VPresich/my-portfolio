@@ -1,0 +1,75 @@
+.education-item {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  border-radius: 30px;
+  background-color: #4a1b1b;
+  color: var(--primary-color);
+}
+
+.education-img {
+  display: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid var(--accent-color);
+}
+
+.education-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.education-speciality {
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--accent-color);
+  margin-bottom: 8px;
+}
+
+.education-degree {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.ducation-period {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-education-title {
+    font-size: 44px;
+    line-height: 1.09;
+  }
+
+  .education-img {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .education-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .education-item {
+    max-width: 684px;
+    width: calc(100% - 20px) / 2;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+  }
+}
