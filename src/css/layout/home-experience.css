@@ -87,7 +87,7 @@
 
   .experience-item {
     max-width: 684px;
-    width: calc(100% - 16px) / 2;
+    width: calc((100% - 16px) / 2);
     padding: 40px;
     display: flex;
     gap: 16px;

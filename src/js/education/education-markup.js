@@ -1,3 +1,4 @@
+import { getImageUrl } from '../common/get-img-url';
 export function educationMarkup(educationItems) {
   return educationItems
     .map(
@@ -5,7 +6,7 @@ export function educationMarkup(educationItems) {
     <li class="education-item">
       <img
         class="education-img"
-        src="${imgSrc}"
+        src="${getImageUrl(imgSrc)}"
         alt="${imgAlt}"
         width="100"
         height="100"

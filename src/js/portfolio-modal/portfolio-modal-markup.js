@@ -1,5 +1,5 @@
 import iconURL from '../../img/icons/symbols.svg';
-
+import { getImageUrl } from '../common/get-img-url';
 export function portfolioModalMarkup(project = {}) {
   const {
     id,
@@ -29,7 +29,7 @@ export function portfolioModalMarkup(project = {}) {
             </button>
             <div class="portfolio-image-wrapper">
               <img
-                src="${img}"
+                src="${getImageUrl(img)}"
                 alt=""
                 class="portfolio-image-modal"
               />

@@ -67,7 +67,7 @@
 
   .education-item {
     max-width: 684px;
-    width: calc(100% - 20px) / 2;
+    width: calc((100% - 20px) / 2);
     padding: 20px;
     display: flex;
     gap: 20px;
