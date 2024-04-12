@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/my-portfolio/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    
+    <script type="module" crossorigin src="/my-portfolio/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/my-portfolio/assets/handle-menu-buttons-9e826f93.js">
+    <link rel="stylesheet" href="/my-portfolio/assets/handle-menu-buttons-095b1f14.css">
+  </head>
+  <body>
+    <header class="header-section">
+  <div class="container header-section-container">
+    <div class="header-page">
+      <div class="header-left-part">
+        <a class="logotype" href="./index.html">about.me</a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <span class="button-home active-btn">
+                <a href="./index.html" class="nav-link">Home</a>
+              </span>
+            </li>
+            <li class="nav-item">
+              <span class="button-portfolio btn">
+                <a href="./portfolio.html" class="nav-link">Portfolio</a>
+              </span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="contacts-social-list-header">
+        <ul class="social-list-header list"></ul>
+      </div>
+      <button class="button-align-justify js-open-menu-btn">
+        <svg
+          class="icon-align-justify"
+          width="32"
+          height="16"
+          aria-label="icon-align-justify"
+        >
+          <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-align-justify"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <!-- <section>
+  <div class="container favorites-motivation-ports">
+    <div class="quote-container favorites-quote-day">
+      <div class="quote quote-width">
+        <div class="quote-head">
+          <div class="svg-position">
+            <div class="quote-running-man">
+              <svg class="quote-svg" width="28" height="28">
+                <use href="./img/icons/symbols.svg#icon-running-man"></use>
+              </svg>
+            </div>
+            <svg class="svg-double-quotes" width="28" height="28">
+              <use href="./img/icons/symbols.svg#icon-inverted-commas"></use>
+            </svg>
+          </div>
+          <div class="quote-content">
+            <h2 class="quote-title">Quote of the day</h2>
+            <div class="quote-unfold js-quote"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="favorites-motivation-image-cont"></div>
+    <div class="favorites-motivation-block">
+      <div class="favorites-motivation-conteiner">
+        <p class="favorites-motivation-block-img">
+          <img
+            src="./img/favorite/fluent-food-24-filled.jpg"
+            alt="img-dumbbell"
+          />
+        </p>
+        <p class="favorites-motivation-block-time">110 min</p>
+        <p class="favorites-motivation-block-inform">Daily norm of sports</p>
+      </div>
+    </div>
+  </div>
+</section>
+ -->
+
+    <section>
+  <div class="container container-portfolio">
+    <h2 class="portfolio-title">My projects</h2>
+    <ul class="portfolio-list list portfolio-js"></ul>
+  </div>
+</section>
+
+    <div class="mobile-menu js-mobile-menu">
+  <div class="mobile-menu-container">
+    <div class="logotype-menu">
+      <a class="logotype-menu-link" href="./index.html">energy.flow</a>
+    </div>
+    <button class="mobile-menu-close-btn js-mobile-menu-close-btn">
+      <svg
+        class="mobile-menu-close-icon"
+        width="20"
+        height="20"
+        aria-label="mobile menu close icon"
+      >
+        <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-x"></use>
+      </svg>
+    </button>
+    <nav class="nav-menu">
+      <ul class="nav-list-menu">
+        <li class="nav-item">
+          <span class="button-home active-btn">
+            <a href="./index.html" class="nav-link">Home</a>
+          </span>
+        </li>
+        <li class="nav-item">
+          <span class="button-favorites btn">
+            <a href="./portfolio.html" class="nav-link nav-link-favorites"
+              >Portfolio</a
+            >
+          </span>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="contacts-social-list-menu">
+      <ul class="social-list-menu list"></ul>
+    </div>
+  </div>
+</div>
+
+    <div class="modal-backdrop"></div>
+
+    <section class="rating-form-section">
+  <div class="container">
+    <div class="rating-form-container modal-backdrop">
+      <div class="rating-form-content">
+        <button type="button" class="close-rating-form-btn rating-form-btn">
+          <svg
+            class="close-rating-form-icon"
+            width="24"
+            height="24"
+            aria-label="close icon"
+          >
+            <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-x"></use>
+          </svg>
+        </button>
+        <div class="rating-stars-container">
+          <p class="rating-label">Rating</p>
+          <div class="stars-container">
+            <p class="rating-number">0.0</p>
+            <button
+              type="button"
+              class="star-btn rating-form-btn"
+              data-starnumber="1"
+            >
+              <svg
+                class="star-btn-icon"
+                width="24"
+                height="24"
+                aria-label="star icon"
+              >
+                <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-star"></use>
+              </svg>
+            </button>
+            <button
+              type="button"
+              class="star-btn rating-form-btn"
+              data-starnumber="2"
+            >
+              <svg
+                class="star-btn-icon"
+                width="24"
+                height="24"
+                aria-label="star icon"
+              >
+                <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-star"></use>
+              </svg>
+            </button>
+            <button
+              type="button"
+              class="star-btn rating-form-btn"
+              data-starnumber="3"
+            >
+              <svg
+                class="star-btn-icon"
+                width="24"
+                height="24"
+                aria-label="star icon"
+              >
+                <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-star"></use>
+              </svg>
+            </button>
+            <button
+              type="button"
+              class="star-btn rating-form-btn"
+              data-starnumber="4"
+            >
+              <svg
+                class="star-btn-icon"
+                width="24"
+                height="24"
+                aria-label="star icon"
+              >
+                <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-star"></use>
+              </svg>
+            </button>
+            <button
+              type="button"
+              class="star-btn rating-form-btn"
+              data-starnumber="5"
+            >
+              <svg
+                class="star-btn-icon"
+                width="24"
+                height="24"
+                aria-label="star icon"
+              >
+                <use href="/my-portfolio/assets/symbols-cd95085d.svg#icon-star"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <form class="give-rating-form">
+          <input
+            type="email"
+            class="rating-form-email-input"
+            name="email-input"
+            placeholder="Email"
+          />
+          <textarea
+            name="comment"
+            id="comment-textarea"
+            class="rating-form-comment"
+            placeholder="Your comment"
+          ></textarea>
+          <button class="rating-form-send-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
