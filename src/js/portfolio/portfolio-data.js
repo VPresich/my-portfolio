@@ -3,7 +3,7 @@ export const portfolioData = [
     id: 1,
     type: 'Project',
     teamLeader: 'Team Leader',
-    img: '../../img/dynamic.jpg',
+    img: './img/dynamic.jpg',
     githubLink: 'https://vpresich.github.io/dynamics/',
     name: 'Dynamics',
     participants: 9,
