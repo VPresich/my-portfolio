@@ -7,7 +7,8 @@
 
 .favorites-motivation-image-cont {
   border-radius: 30px;
-  background: url(/img/favorite/favorite-mobile@1x.jpg) no-repeat;
+  /* background: url(/img/favorite/favorite-mobile@1x.jpg) no-repeat; */
+  background: url(/img/my-photo.jpg) no-repeat;
   background-size: cover;
   height: 272px;
 }
@@ -61,8 +62,6 @@
   }
 }
 
-/*======================== screen 768 =========================== */
-
 @media screen and (min-width: 768px) {
   .favorites-motivation-ports {
     margin-top: 180px;
@@ -74,19 +73,15 @@
     margin-bottom: 16px;
   }
 
-  /*================== favorites-motivation-image ==================== */
-
   .favorites-motivation-image-cont {
     display: inline-block;
     border-radius: 50px;
-
-    background: url(/img/favorite/favorite-tablet@1x.jpg) no-repeat;
+    /* background: url(/img/favorite/favorite-tablet@1x.jpg) no-repeat; */
+    background: url(/img/my-photo.jpg) no-repeat;
     background-size: cover;
     width: 366px;
     height: 302px;
   }
-
-  /*================== favorites-motivation-inform ==================== */
 
   .favorites-motivation-block {
     display: inline-block;
@@ -105,7 +100,6 @@
   }
 }
 
-/*===================================== screen 1440px =============================*/
 @media screen and (min-width: 1440px) {
   .favorites-motivation-ports {
     display: flex;
@@ -119,16 +113,13 @@
     width: 100%;
   }
 
-  /*================== favorites-motivation-image ==================== */
-
   .favorites-motivation-image-cont {
     flex-shrink: 0;
     width: 352px;
     border-radius: 50px;
-    background: url(/img/favorite/favorite-desktop@1x.jpg) no-repeat;
+    background: url(/img/my-photo.jpg) no-repeat;
+    /* background: url(/img/favorite/favorite-desktop@1x.jpg) no-repeat;*/
   }
-
-  /*================== favorites-motivation-inform ==================== */
 
   .favorites-motivation-block {
     flex-shrink: 0;

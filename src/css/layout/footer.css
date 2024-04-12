@@ -89,6 +89,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.28;
+  text-align: right;
 }
 
 .security-text {
@@ -158,13 +159,12 @@
   }
 
   .footer-container {
-    row-gap: 140px;
+    row-gap: 80px;
   }
 
   .footer-container-wrapper {
     flex-direction: row;
     justify-content: center;
-    /* text-align: center; */
     column-gap: 200px;
   }
 
@@ -192,6 +192,5 @@
   .footer-author-credo {
     font-size: 20px;
     line-height: 1.5;
-    text-align: right;
   }
 }
