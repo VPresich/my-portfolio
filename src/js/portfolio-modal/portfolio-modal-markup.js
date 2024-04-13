@@ -6,6 +6,7 @@ export function portfolioModalMarkup(project = {}) {
     type,
     teamLeader,
     img,
+    imgUrl,
     name,
     participants,
     languages,
@@ -29,7 +30,7 @@ export function portfolioModalMarkup(project = {}) {
             </button>
             <div class="portfolio-image-wrapper">
               <img
-                src="${getImageUrl(img)}"
+                src="${imgUrl}"
                 alt=""
                 class="portfolio-image-modal"
               />

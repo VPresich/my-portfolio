@@ -1,6 +1,10 @@
+import goitUrl from '../../img/goit.jpg';
+import icUrl from '../../img/ic.jpg';
+import mptiUrl from '../../img/mpti.jpg';
+
 export const educationData = [
   {
-    imgSrc: '../img/goit.jpg',
+    imgSrc: goitUrl,
     imgAlt: 'goit',
     schoolName: 'IT School GoIT',
     speciality: 'Fullstack Developer',
@@ -8,7 +12,7 @@ export const educationData = [
     period: '2023 - 2024',
   },
   {
-    imgSrc: '../img/ic.jpg',
+    imgSrc: icUrl,
     imgAlt: 'IC',
     schoolName:
       'Post-graduate, V.M. Glushkov Institute of Cybernetics of NAS of Ukraine, Kyiv',
@@ -18,7 +22,7 @@ export const educationData = [
     period: '1992 - 1996',
   },
   {
-    imgSrc: '../img/mpti.jpg',
+    imgSrc: mptiUrl,
     imgAlt: 'MPTI',
     schoolName: 'Moscow Physics and Technology Institute (MPTI)',
     speciality: 'Applied Mathematics',
