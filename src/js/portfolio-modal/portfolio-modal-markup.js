@@ -13,14 +13,15 @@ export function portfolioModalMarkup(project = {}) {
     target,
     short,
     desc,
+    framework,
   } = project;
 
   return `
-        <div class="portfolio-window">
-          <div class="portfolio-container">
-            <button class="portfolio-close-btn" type="button">
+        <div class="modal-window">
+          <div class="modal-container">
+            <button class="modal-close-btn" type="button">
               <svg
-                class="portfolio-close-icon"
+                class="modal-close-icon"
                 width="28"
                 height="28"
                 aria-label="Close icon"
@@ -31,8 +32,9 @@ export function portfolioModalMarkup(project = {}) {
             <div class="portfolio-image-wrapper">
               <img
                 src="${imgUrl}"
-                alt=""
+                alt="project title photo"
                 class="portfolio-image-modal"
+                width="700"
               />
             </div>
             <div class="portfolio-info-wrapper">
@@ -51,7 +53,7 @@ export function portfolioModalMarkup(project = {}) {
                   </li>
                   <li class="portfolio-params-card">
                     <p class="portfolio-param-name">FrameWork</p>
-                    <p class="portfolio-param-value portfolio-param-equipment">Yes</p>
+                    <p class="portfolio-param-value portfolio-param-equipment">${framework}</p>
                   </li>
                   <li class="portfolio-params-card">
                     <p class="portfolio-param-name">Team</p>

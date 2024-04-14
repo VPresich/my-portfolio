@@ -1,3 +1,6 @@
+import profUrl from '../../img/sertifications/prof.jpg';
+import diplomaKnteUrl from '../../img/sertifications/diploma-knteu.jpg';
+
 export const experiencesData = [
   {
     title: 'C++/Python Programmer, Data Analyst',
@@ -9,6 +12,7 @@ export const experiencesData = [
       'Exploring algorithms with Python frameworks',
       'Statistical analysis of large data',
     ],
+    isAwards: false,
   },
   {
     title: 'Senior researcher',
@@ -19,6 +23,7 @@ export const experiencesData = [
       'Programming (C++, MatLab)',
       'Writing tutorials and research reports',
     ],
+    isAwards: false,
   },
   {
     title: 'Developer',
@@ -29,6 +34,7 @@ export const experiencesData = [
       'GUI development in RealBasic',
       'Porting software from Windows to macOS',
     ],
+    isAwards: false,
   },
   {
     title: 'Senior Lecturer, Associate Professor',
@@ -38,14 +44,20 @@ export const experiencesData = [
       'Lectures and practical classes on Algorithms, Programming Languages, Relational Databases and Information Technologies',
       'Writing tutorials and tests for students',
     ],
+    isAwards: true,
+    awards: [
+      { title: 'Diploma of Associate Professor', imgUrl: profUrl },
+      { title: 'Diploma', imgUrl: diplomaKnteUrl },
+    ],
   },
   {
-    title: 'Researcher',
+    title: 'Scientific Researcher',
     company: 'V.M. Glushkov IC (NAS of Ukraine) | Kyiv',
     period: 'August 1988 - October 1996',
     duties: [
       'Scientific research in the field of Nonlinear Optimization and Variational Inequalities. Dissertation: "Numerical Methods for Solving Variational Inequalities."',
       'Development of software packages for solving problems in Nonlinear Optimization and Variational Inequalities',
     ],
+    isAwards: false,
   },
 ];

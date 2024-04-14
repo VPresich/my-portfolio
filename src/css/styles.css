@@ -14,12 +14,14 @@
 @import url('./layout/home-experience-filters.css');
 @import url('./layout/home-experience.css');
 @import url('./layout/home-education.css');
+@import url('./layout/home-sertifications.css');
 
 @import url('./layout/quote.css');
 @import url('./layout/portfolio-quote.css');
 @import url('./layout/portfolio-gallery.css');
 @import url('./layout/footer.css');
 
+@import url('./layout/window-modal.css');
 @import url('./layout/portfolio-modal.css');
 @import url('./layout/burger-modal-menu.css');
 

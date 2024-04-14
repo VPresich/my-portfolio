@@ -1,10 +1,12 @@
-import dynamicsUrl from '../../img/dynamic.jpg';
-import artUrl from '../../img/ukr-24.jpg';
-import chocolateUrl from '../../img/chocolate.jpg';
-import officeUrl from '../../img/webstudio.jpg';
-import phoneBookUrl from '../../img/phone-book.jpg';
-import filmLibraryUrl from '../../img/film-library.jpg';
-import moviesUrl from '../../img/movies.jpg';
+import dynamicsUrl from '../../img/projects/dynamic.jpg';
+import artUrl from '../../img/projects/ukr-24.jpg';
+import chocolateUrl from '../../img/projects/chocolate.jpg';
+import officeUrl from '../../img/projects/webstudio.jpg';
+import phoneBookUrl from '../../img/projects/phone-book.jpg';
+import filmLibraryUrl from '../../img/projects/film-library.jpg';
+import moviesUrl from '../../img/projects/movies.jpg';
+import bookORUrl from '../../img/projects/book-or.jpg';
+import bookVbaUrl from '../../img/projects/book-vba.jpg';
 
 export const portfolioData = [
   {
@@ -18,6 +20,7 @@ export const portfolioData = [
     participants: 9,
     languages: ['HTML5', 'CSS3', 'JavaScript'],
     target: 'Study',
+    framework: 'Yes',
     short: `The app "Dynamics" provides a comprehensive platform for workout enthusiasts,
 featuring server integration, exercise uploads, modal window previews, favorites addition,
 and feedback submission for exercises and ratings`,
@@ -50,6 +53,7 @@ about updates and announcements.`,
     participants: 9,
     languages: ['HTML5', 'CSS3', 'JavaScript'],
     target: 'Study',
+    framework: 'No',
     short: `The app offers a unique platform for advertising and ordering embroidered shirts,
 combining cultural heritage with modern technology.`,
     desc: `The app offers a unique platform for advertising and ordering embroidered shirts,
@@ -77,6 +81,7 @@ and other important information about our app.`,
     participants: 1,
     languages: ['HTML5', 'CSS3', 'JavaScript'],
     target: 'Study',
+    framework: 'No',
     short: `The application offers a unique platform for chocolate enthusiasts,
 combining a wide range of products, recipes, and the ability to place orders through a modal window.
 Here's how our application looks on different devices`,
@@ -118,10 +123,11 @@ mobile phones, and tablets.`,
     imgSrc: '../../img/webstudio.jpg',
     imgUrl: officeUrl,
     githubLink: 'https://vpresich.github.io/goit-markup-hw-06/',
-    name: 'Office',
+    name: 'Webstudio',
     participants: 1,
     languages: ['HTML5', 'CSS3', 'JavaScript'],
     target: 'Study',
+    framework: 'No',
     short: `The application offers a unique platform for chocolate enthusiasts,
 combining a wide range of products, recipes, and the ability to place orders through a modal window.
 Here's how our application looks on different devices`,
@@ -140,6 +146,7 @@ Here's how our application looks on different devices`,
     participants: 1,
     languages: ['Redux Toolkit'],
     target: 'Study',
+    framework: 'Yes',
     short: `The application is a convenient tool for organizing your contacts. With it, you can store, add, delete, and edit contacts in your phone book. Registration: Create your account to save your contacts and access them from any device.`,
     desc: `The application is a convenient tool for organizing your contacts. With it, you can store, add, delete, and edit contacts in your phone book. Registration: Create your account to save your contacts and access them from any device. Server Interaction: Your contacts are securely stored on the server, allowing you to access them from anywhere. Contact Management: Add new contacts, delete, or edit existing ones quickly and conveniently. Redux Toolkit: The application uses Redux Toolkit for efficient state management, providing responsiveness and scalability. The simple and intuitive interface of the "Phone Book" application makes it the perfect choice for those who want to easily organize their contacts and always have access to them.`,
   },
@@ -154,10 +161,9 @@ Here's how our application looks on different devices`,
     participants: 1,
     languages: ['Java Script'],
     target: 'Study',
+    framework: 'No',
     short: `The "FilmLibrary" app is a comprehensive platform for managing your movie collection. With its user-friendly interface and powerful features, organizing and accessing your favorite films has never been easier.`,
-    desc: ` Key Features. Easily search and browse through a vast library of movies using intuitive filters and sorting options.
-Add new movies to your collection or edit existing ones, including details such as title, genre, release year, director, and more.
-Leveraging the power of JavaScript, the app utilizes APIs to fetch movie data from external sources, providing up-to-date information and a rich browsing experience. Whether you're a casual movie enthusiast or a dedicated cinephile, the "FilmLibrary" app is your go-to tool for managing and enjoying your movie collection.`,
+    desc: ` Key Features. Easily search and browse through a vast library of movies using intuitive filters and sorting options. Add new movies to your collection or edit existing ones, including details such as title, genre, release year, director, and more. Leveraging the power of JavaScript, the app utilizes APIs to fetch movie data from external sources, providing up-to-date information and a rich browsing experience. Whether you're a casual movie enthusiast or a dedicated cinephile, the "FilmLibrary" app is your go-to tool for managing and enjoying your movie collection.`,
   },
   {
     id: 7,
@@ -170,9 +176,41 @@ Leveraging the power of JavaScript, the app utilizes APIs to fetch movie data fr
     participants: 1,
     languages: ['React'],
     target: 'Study',
+    framework: 'Yes',
     short: `The "Movies" app is a comprehensive platform for managing your movie collection. With its user-friendly interface and powerful features, organizing and accessing your favorite films has never been easier.`,
     desc: ` Key Features. Easily search and browse through a vast library of movies using intuitive filters and sorting options.
 Add new movies to your collection or edit existing ones, including details such as title, genre, release year, director, and more.
 Leveraging the power of React, the app utilizes APIs to fetch movie data from external sources, providing up-to-date information and a rich browsing experience. Whether you're a casual movie enthusiast or a dedicated cinephile, the "FilmLibrary" app is your go-to tool for managing and enjoying your movie collection.`,
+  },
+  {
+    id: 8,
+    type: 'Book',
+    teamLeader: 'Writer',
+    imgSrc: '../../img/book-or.jpg',
+    imgUrl: bookORUrl,
+    githubLink: 'https://academia-pc.com.ua/product/84',
+    name: 'Operations Research',
+    participants: 2,
+    languages: ['Ukrainian'],
+    target: 'For students',
+    framework: '-',
+    short: `The description covers the basic concepts and methodological principles of operations research, mathematical methods of single and multi-criteria optimization, elements of duality theory, as well as methods for solving various types of mathematical programming problems, such as linear, nonlinear, integer, stochastic, and dynamic programming, as well as network planning and inventory management problems. It also touches upon elements of game theory and queuing theory.`,
+    desc: `The description covers the basic concepts and methodological principles of operations research, mathematical methods of single and multi-criteria optimization, elements of duality theory, as well as methods for solving various types of mathematical programming problems, such as linear, nonlinear, integer, stochastic, and dynamic programming, as well as network planning and inventory management problems. It also touches upon elements of game theory and queuing theory.`,
+  },
+  {
+    id: 9,
+    type: 'Book',
+    teamLeader: 'Writer',
+    imgSrc: '../../img/book-vba.jpg',
+    imgUrl: bookVbaUrl,
+    githubLink:
+      'https://libtomcat.knteu.kiev.ua/library/DocDescription?doc_id=75299',
+    name: 'VBA in examples and tasks',
+    participants: 1,
+    languages: ['Ukrainian'],
+    target: 'For students',
+    framework: '-',
+    short: `This handbook serves as a comprehensive guide tailored for students, encompassing a wide array of examples and practical exercises. The first part of the book delves into the intricacies of the built-in programming language, providing a thorough understanding of its functionalities and capabilities. With a focus on hands-on learning, students are presented with various real-world scenarios and tasks, guiding them through the application of programming concepts in practical contexts. Whether delving into basic syntax or exploring advanced features, this resource equips students with the knowledge and skills needed to navigate and utilize the programming language effectively.`,
+    desc: `This handbook serves as a comprehensive guide tailored for students, encompassing a wide array of examples and practical exercises. The first part of the book delves into the intricacies of the built-in programming language, providing a thorough understanding of its functionalities and capabilities. With a focus on hands-on learning, students are presented with various real-world scenarios and tasks, guiding them through the application of programming concepts in practical contexts. Whether delving into basic syntax or exploring advanced features, this resource equips students with the knowledge and skills needed to navigate and utilize the programming language effectively.`,
   },
 ];

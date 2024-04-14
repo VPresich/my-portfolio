@@ -1,21 +1,19 @@
 import {
   SELECTOR_GALLERY,
   CLASS_GALLERYSTART,
-  SELECTOR_CLOSEBTN,
-  KEY_CODE_ESC,
-  SELECTOR_BACKDROP,
-  MODAL_VISIBILITY,
   CLASS_GITHUBLINK,
 } from './portfolio-constants.js';
+
+import { SELECTOR_BACKDROP } from '../modal-window/modal-window-constants.js';
+
+import { openModalWindow } from '../modal-window/modal-window-handle.js';
 
 import { portfolioModalCreate } from './portfolio-modal-create';
 import { portfolioById } from './portfolio-byid';
 
-let closeBtn;
 let portfolioId;
 
-let modalBackdrop = document.querySelector(SELECTOR_BACKDROP);
-modalBackdrop && modalBackdrop.addEventListener('click', onBackdropClick);
+const modalBackdrop = document.querySelector(SELECTOR_BACKDROP);
 
 const galleryRef = document.querySelector(SELECTOR_GALLERY);
 galleryRef && galleryRef.addEventListener('click', onGalleryClick);
@@ -53,28 +51,4 @@ function getGitHubUrl(targetRef) {
     gitUrl = anchorElement.getAttribute('href');
   }
   return gitUrl;
-}
-
-export function onCloseBtn(event) {
-  window.removeEventListener('keydown', onWindowKeydown);
-  modalBackdrop.classList.remove(MODAL_VISIBILITY);
-}
-
-export function openModalWindow() {
-  modalBackdrop.classList.add(MODAL_VISIBILITY);
-  window.addEventListener('keydown', onWindowKeydown);
-  closeBtn = document.querySelector(SELECTOR_CLOSEBTN);
-  closeBtn && closeBtn.addEventListener('click', onCloseBtn);
-}
-
-function onWindowKeydown(event) {
-  if (event.code === KEY_CODE_ESC) {
-    onCloseBtn(event);
-  }
-}
-
-function onBackdropClick(event) {
-  if (event.currentTarget === event.target) {
-    onCloseBtn(event);
-  }
 }

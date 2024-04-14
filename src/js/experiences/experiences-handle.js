@@ -1,6 +1,12 @@
 import { experiencesCreate } from './experiences-create.js';
 import { educationCreate } from '../education/educattion-create.js';
-import { LIST_CONTAINER } from './experiences-constants.js';
+import { sertificationsCreate } from '../sertifications/sert-create.js';
+import {
+  LIST_CONTAINER,
+  SERTIFICATIONS,
+  EDUCATION,
+  EXPERIENCE,
+} from './experiences-constants.js';
 
 let activeBtn = null;
 const activeBtnClass = 'filter-button-active';
@@ -16,15 +22,15 @@ function onFiltersBtnsClick(event) {
   if (event.target.tagName !== 'BUTTON') return;
   const filter = event.target.dataset.filter;
   switch (filter) {
-    case 'Experience':
+    case EXPERIENCE:
       experiencesCreate(galleryRef);
       break;
-    case 'Education':
+    case EDUCATION:
       educationCreate(galleryRef);
       break;
-    case 'Certifications':
-      // TODO
+    case SERTIFICATIONS:
       console.log('Filter by Certifications');
+      sertificationsCreate(galleryRef);
       break;
     default:
       console.log('Unknown filter');
