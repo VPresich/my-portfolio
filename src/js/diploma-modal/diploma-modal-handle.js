@@ -1,6 +1,7 @@
 import { diplomaModalCreate } from './diploma-modal-create';
 import { getHubUrl } from '../common/get-hubUrl.js';
 import { SELECTOR_GALLERY, CLASS_OPENMODAL } from './diploma-constants';
+import { CLASS_GITHUBLINK } from '../sertifications/sert-constants.js';
 
 import { openModalWindow } from '../modal-window/modal-window-handle.js';
 
@@ -21,7 +22,7 @@ function onGalleryClick(event) {
       openModalWindow();
     }
   } else {
-    const url = getHubUrl(targetRef);
+    const url = getHubUrl(targetRef, CLASS_GITHUBLINK);
     url && window.open(url, '_blank', 'noreopen');
   }
 }
