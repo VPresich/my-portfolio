@@ -13,6 +13,7 @@ export const educationData = [
     degree: 'Fullstack Developer',
     period: '2023 - 2024',
     sertImgUrl: '',
+    isDiploma: false,
   },
   {
     imgSrc: icUrl,
@@ -21,9 +22,10 @@ export const educationData = [
       'Post-graduate, V.M. Glushkov Institute of Cybernetics of NAS of Ukraine, Kyiv',
     speciality:
       'Mathematical Modeling and Numerical Methods in Scientific Research',
-    degree: 'Diploma: Ph.D. (Cand. of Phys. and Math. Sciences)',
+    degree: 'PhD (Cand. of Phys. and Math. Sciences)',
     period: '1992 - 1996',
     sertImgUrl: phdUrl,
+    isDiploma: true,
   },
   {
     imgSrc: mptiUrl,
@@ -31,9 +33,10 @@ export const educationData = [
     schoolName: 'Moscow Physics and Technology Institute (MPTI)',
     speciality: 'Applied Mathematics',
     degree:
-      'Diploma: Master of Science in the Field of Applied Mathematics and Information Technology',
+      'Master of Science in the Field of Applied Mathematics and Information Technology',
     period: '1982 - 1988',
     sertImgUrl: masterUrl,
+    isDiploma: true,
   },
 ];
 

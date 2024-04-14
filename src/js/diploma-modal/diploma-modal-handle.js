@@ -1,4 +1,5 @@
 import { diplomaModalCreate } from './diploma-modal-create';
+import { getHubUrl } from '../common/get-hubUrl.js';
 import { SELECTOR_GALLERY, CLASS_OPENMODAL } from './diploma-constants';
 
 import { openModalWindow } from '../modal-window/modal-window-handle.js';
@@ -6,7 +7,6 @@ import { openModalWindow } from '../modal-window/modal-window-handle.js';
 import { SELECTOR_BACKDROP } from '../modal-window/modal-window-constants.js';
 
 const modalBackdrop = document.querySelector(SELECTOR_BACKDROP);
-// modalBackdrop && modalBackdrop.addEventListener('click', onBackdropClick);
 
 const galleryRef = document.querySelector(SELECTOR_GALLERY);
 galleryRef && galleryRef.addEventListener('click', onGalleryClick);
@@ -21,7 +21,7 @@ function onGalleryClick(event) {
       openModalWindow();
     }
   } else {
-    const url = getGitHubUrl(targetRef);
+    const url = getHubUrl(targetRef);
     url && window.open(url, '_blank', 'noreopen');
   }
 }
@@ -41,27 +41,3 @@ function getDiplomaUrl(targetRef) {
   }
   return gitUrl;
 }
-
-// export function onCloseBtn(event) {
-//   window.removeEventListener('keydown', onWindowKeydown);
-//   modalBackdrop.classList.remove(MODAL_VISIBILITY);
-// }
-
-// export function openModalWindow() {
-//   modalBackdrop.classList.add(MODAL_VISIBILITY);
-//   window.addEventListener('keydown', onWindowKeydown);
-//   closeBtn = document.querySelector(SELECTOR_CLOSEBTN);
-//   closeBtn && closeBtn.addEventListener('click', onCloseBtn);
-// }
-
-// function onWindowKeydown(event) {
-//   if (event.code === KEY_CODE_ESC) {
-//     onCloseBtn(event);
-//   }
-// }
-
-// function onBackdropClick(event) {
-//   if (event.currentTarget === event.target) {
-//     onCloseBtn(event);
-//   }
-// }

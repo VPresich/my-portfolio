@@ -26,9 +26,7 @@ export function experiencesMarkup(experiencesData) {
 function getAwards(experience) {
   let strAwardsMarkup = '';
   const { isAwards, awards } = experience;
-
   let awardsList = '';
-  console.log('isAwards', isAwards);
   if (isAwards) {
     awardsList = awards
       .map(

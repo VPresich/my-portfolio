@@ -4,6 +4,8 @@ import {
   CLASS_GITHUBLINK,
 } from './portfolio-constants.js';
 
+import { getHubUrl } from '../common/get-hubUrl.js';
+
 import { SELECTOR_BACKDROP } from '../modal-window/modal-window-constants.js';
 
 import { openModalWindow } from '../modal-window/modal-window-handle.js';
@@ -31,24 +33,7 @@ function onGalleryClick(event) {
     portfolioModalCreate(formData, modalBackdrop);
     openModalWindow();
   } else {
-    const url = getGitHubUrl(targetRef);
+    const url = getHubUrl(targetRef, CLASS_GITHUBLINK);
     url && window.open(url, '_blank', 'noreopen');
   }
-}
-
-function getGitHubUrl(targetRef) {
-  let gitUrl;
-  let anchorElement;
-  if (targetRef.classList.contains(CLASS_GITHUBLINK)) {
-    if (targetRef.nodeName === 'a') {
-      anchorElement = targetRef;
-    } else {
-      anchorElement = targetRef.closest('a');
-    }
-  }
-
-  if (anchorElement) {
-    gitUrl = anchorElement.getAttribute('href');
-  }
-  return gitUrl;
 }

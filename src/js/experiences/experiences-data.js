@@ -45,10 +45,7 @@ export const experiencesData = [
       'Writing tutorials and tests for students',
     ],
     isAwards: true,
-    awards: [
-      { title: 'Diploma of Associate Professor', imgUrl: profUrl },
-      { title: 'Diploma', imgUrl: diplomaKnteUrl },
-    ],
+    awards: [{ title: 'Diploma of Associate Professor', imgUrl: profUrl }],
   },
   {
     title: 'Scientific Researcher',
