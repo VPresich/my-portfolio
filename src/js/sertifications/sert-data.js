@@ -1,6 +1,6 @@
 import ciscoCyberSecUrl from '../../img/sertifications/cisco-cybersecurity.png';
 import ciscoJS1Url from '../../img/sertifications/cisco-js1.png';
-import ciscoPython1Url from '../../img/sertifications/cisco-js1.png';
+import ciscoPython1Url from '../../img/sertifications/cisco-python1.png';
 
 export const sertData = [
   {
