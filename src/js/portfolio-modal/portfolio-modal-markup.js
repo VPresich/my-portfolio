@@ -29,12 +29,13 @@ export function portfolioModalMarkup(project = {}) {
                 <use href="${iconURL}#icon-x"></use>
               </svg>
             </button>
+            
             <div class="portfolio-image-wrapper">
               <img
                 src="${imgUrl}"
                 alt="project title photo"
                 class="portfolio-image-modal"
-                width="700"
+                width="500"
               />
             </div>
             <div class="portfolio-info-wrapper">
@@ -67,6 +68,5 @@ export function portfolioModalMarkup(project = {}) {
             </div>
           </div>
         </div>   
-
       `;
 }

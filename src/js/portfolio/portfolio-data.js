@@ -16,15 +16,17 @@ export const portfolioData = [
     imgSrc: '../../img/dynamic.jpg',
     imgUrl: dynamicsUrl,
     githubLink: 'https://vpresich.github.io/dynamics/',
-    name: 'Dynamics',
+    name: 'EnergyFlow',
     participants: 9,
     languages: ['HTML5', 'CSS3', 'JavaScript'],
     target: 'Study',
     framework: 'Yes',
-    short: `The app "Dynamics" provides a comprehensive platform for workout enthusiasts,
+    short: `The app "EnergyFlow" provides a comprehensive platform for workout enthusiasts,
 featuring server integration, exercise uploads, modal window previews, favorites addition,
-and feedback submission for exercises and ratings`,
-    desc: `The app "Dynamics" provides a comprehensive platform for workout enthusiasts,
+and feedback submission for exercises and ratings. The Hero section showcases motivational
+images and highlights current promotions or featured workouts. 
+Users can provide valuable feedback and ratings for each exercise through the "Ratings" form.`,
+    desc: `The app "EnergyFlow" provides a comprehensive platform for workout enthusiasts,
 featuring server integration, exercise uploads, modal window previews, favorites addition,
 and feedback submission for exercises and ratings.
 In the Header section users will find an menu for navigation.
