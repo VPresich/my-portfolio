@@ -1,4 +1,4 @@
-import{m as l,a as w,i as t,S as k,o as T,g as L}from"./assets/modal-window-handle-547222c9.js";const c=document.querySelectorAll(".button-home"),p=document.querySelectorAll(".button-portfolio");l(p,c);p.forEach(o=>{o.addEventListener("click",e=>{l([o],c)})});w();function x(o){return o.map(e=>`
+import{m as l,a as w,i as t,S as k,o as T,g as L}from"./assets/modal-window-handle-8285e73c.js";const c=document.querySelectorAll(".button-home"),p=document.querySelectorAll(".button-portfolio");l(p,c);p.forEach(o=>{o.addEventListener("click",e=>{l([o],c)})});w();function x(o){return o.map(e=>`
     <li class="portfolio-card" data-id="${e.id}">
       <div class="portfolio-card-top-line">
         <div class="portfolio-card-top-left">

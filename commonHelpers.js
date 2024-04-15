@@ -1,4 +1,4 @@
-import{i as l,m as h,a as k,c as I,s as S,S as U,g as M,o as L}from"./assets/modal-window-handle-547222c9.js";function C(e){return e.map(t=>{const{title:i,company:s,period:a,duties:o,isAwards:c,awards:m}=t,p=o.map(A=>`<li class="duties-list-item">${A}</li>`).join("");return`
+import{i as l,m as h,a as k,c as I,s as S,S as U,g as M,o as L}from"./assets/modal-window-handle-8285e73c.js";function C(e){return e.map(t=>{const{title:i,company:s,period:a,duties:o,isAwards:c,awards:m}=t,p=o.map(A=>`<li class="duties-list-item">${A}</li>`).join("");return`
       <li class="experience-item">
         <div class="experience-info-container">
           <h3 class="experience-item-title">${i}</h3>
