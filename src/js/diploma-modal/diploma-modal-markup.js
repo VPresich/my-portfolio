@@ -13,15 +13,13 @@ export function diplomaModalMarkup(diploma = {}) {
               >
                 <use href="${iconURL}#icon-x"></use>
               </svg>
-            </button>
-            <div class="portfolio-image-wrapper">
+            </button>           
               <img
                 src="${imgUrl}"
                 alt="project title photo"
-                class="portfolio-image-modal"
-                width="700"
-              />
-            </div>           
+                class="diploma-image-modal"
+                width="900"
+              />                    
           </div>
         </div>   
 
