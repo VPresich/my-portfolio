@@ -13,8 +13,8 @@
 }
 
 .portfolio-image-modal {
-  width: 300px;
-  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
 }
 
 .portfolio-name {
@@ -106,10 +106,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio-image-modal {
-    width: 500px;
-    /* height: auto; */
-  }
   .portfolio-params-container {
     margin-top: 8px;
     margin-bottom: 8px;
