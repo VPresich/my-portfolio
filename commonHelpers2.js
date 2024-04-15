@@ -1,4 +1,4 @@
-import{m as l,a as w,i as t,S as k,o as T,g as L}from"./assets/modal-window-handle-006c2497.js";const c=document.querySelectorAll(".button-home"),p=document.querySelectorAll(".button-portfolio");l(p,c);p.forEach(o=>{o.addEventListener("click",e=>{l([o],c)})});w();function x(o){return o.map(e=>`
+import{m as l,a as w,i as t,S as k,o as T,g as L}from"./assets/modal-window-handle-7197231a.js";const c=document.querySelectorAll(".button-home"),p=document.querySelectorAll(".button-portfolio");l(p,c);p.forEach(o=>{o.addEventListener("click",e=>{l([o],c)})});w();function x(o){return o.map(e=>`
     <li class="portfolio-card" data-id="${e.id}">
       <div class="portfolio-card-top-line">
         <div class="portfolio-card-top-left">
@@ -47,11 +47,10 @@ import{m as l,a as w,i as t,S as k,o as T,g as L}from"./assets/modal-window-hand
         </ul>
       </div>
     </li>
-  `).join("")}const S="/my-portfolio/assets/dynamic-8b6e8422.jpg",U="/my-portfolio/assets/ukr-24-8c6d5624.jpg",j="/my-portfolio/assets/chocolate-96ef87ef.jpg",R="/my-portfolio/assets/webstudio-c42042b3.jpg",q="/my-portfolio/assets/phone-book-1beeeb0f.jpg",A="/my-portfolio/assets/film-library-a8a40eb8.jpg",H="/my-portfolio/assets/movies-f2c1add6.jpg",F="/my-portfolio/assets/book-or-63e383ff.jpg",$="/my-portfolio/assets/book-vba-c07bdeca.jpg",d=[{id:1,type:"Project",teamLeader:"Team Leader",imgSrc:"../../img/dynamic.jpg",imgUrl:S,githubLink:"https://vpresich.github.io/dynamics/",name:"EnergyFlow",participants:9,languages:["HTML5","CSS3","JavaScript"],target:"Study",framework:"Yes",short:`The app "EnergyFlow" provides a comprehensive platform for workout enthusiasts,
+  `).join("")}const S="/my-portfolio/assets/dynamic-8b6e8422.jpg",j="/my-portfolio/assets/ukr-24-8c6d5624.jpg",U="/my-portfolio/assets/chocolate-96ef87ef.jpg",R="/my-portfolio/assets/webstudio-c42042b3.jpg",q="/my-portfolio/assets/phone-book-1beeeb0f.jpg",A="/my-portfolio/assets/film-library-a8a40eb8.jpg",H="/my-portfolio/assets/movies-f2c1add6.jpg",F="/my-portfolio/assets/book-or-63e383ff.jpg",$="/my-portfolio/assets/book-vba-c07bdeca.jpg",d=[{id:1,type:"Project",teamLeader:"Team Leader",imgSrc:"../../img/dynamic.jpg",imgUrl:S,githubLink:"https://vpresich.github.io/dynamics/",name:"EnergyFlow",participants:9,languages:["HTML5","CSS3","JavaScript"],target:"Study",framework:"Yes",short:`The app "EnergyFlow" provides a comprehensive platform for workout enthusiasts,
 featuring server integration, exercise uploads, modal window previews, favorites addition,
 and feedback submission for exercises and ratings. The Hero section showcases motivational
-images and highlights current promotions or featured workouts. 
-Users can provide valuable feedback and ratings for each exercise through the "Ratings" form.`,desc:`The app "EnergyFlow" provides a comprehensive platform for workout enthusiasts,
+images and highlights current promotions or featured workouts.`,desc:`The app "EnergyFlow" provides a comprehensive platform for workout enthusiasts,
 featuring server integration, exercise uploads, modal window previews, favorites addition,
 and feedback submission for exercises and ratings.
 In the Header section users will find an menu for navigation.
@@ -67,7 +66,7 @@ Users can provide valuable feedback and ratings for each exercise through the "R
 This helps improve the app's content quality and provides insights for other users.
 Finally, the "Footer" section contains essential links, such as contact information,
 support resources, and social media channels, ensuring users can stay connected and informed
-about updates and announcements.`},{id:2,type:"Project",teamLeader:"Team Leader",imgSrc:"../../img/ukr-24.jpg",imgUrl:U,githubLink:"https://vpresich.github.io/team24-project-ukr/",name:"Traditional Ukrainian Artistry",participants:9,languages:["HTML5","CSS3","JavaScript"],target:"Study",framework:"No",short:`The app offers a unique platform for advertising and ordering embroidered shirts,
+about updates and announcements.`},{id:2,type:"Project",teamLeader:"Team Leader",imgSrc:"../../img/ukr-24.jpg",imgUrl:j,githubLink:"https://vpresich.github.io/team24-project-ukr/",name:"Traditional Ukrainian Artistry",participants:9,languages:["HTML5","CSS3","JavaScript"],target:"Study",framework:"No",short:`The app offers a unique platform for advertising and ordering embroidered shirts,
 combining cultural heritage with modern technology.`,desc:`The app offers a unique platform for advertising and ordering embroidered shirts,
 combining cultural heritage with modern technology.
 In the Header section, you'll find a convenient navigation menu,
@@ -80,7 +79,7 @@ Choose the one that suits your taste and style.
 In the "Testimonials" you'll see reviews from our satisfied customers who will share their experiences with you.
 
 Finally, at the bottom of the page is the "Footer" section, where you'll find contact information, links to social media, 
-and other important information about our app.`},{id:3,type:"Project",teamLeader:"Developer",imgSrc:"../../img/chocolate.jpg",imgUrl:j,githubLink:"https://vpresich.github.io/goit-markup-classwork-chocolate/",name:"Chocolate",participants:1,languages:["HTML5","CSS3","JavaScript"],target:"Study",framework:"No",short:`The application offers a unique platform for chocolate enthusiasts,
+and other important information about our app.`},{id:3,type:"Project",teamLeader:"Developer",imgSrc:"../../img/chocolate.jpg",imgUrl:U,githubLink:"https://vpresich.github.io/goit-markup-classwork-chocolate/",name:"Chocolate",participants:1,languages:["HTML5","CSS3","JavaScript"],target:"Study",framework:"No",short:`The application offers a unique platform for chocolate enthusiasts,
 combining a wide range of products, recipes, and the ability to place orders through a modal window.
 Here's how our application looks on different devices`,desc:`The application offers a unique platform for chocolate enthusiasts,
 combining a wide range of products, recipes, and the ability to place orders through a modal window.
